@@ -1,0 +1,6 @@
+a=int(input("enter value of A:"))
+b=int(input("enter value of B:"))
+c=int(input("enter value of c:"))
+print("The value of: A=",a, "B=",b,"C=",c)
+d=int((a+b+c)/3)
+print("The average of the three number is",d)
