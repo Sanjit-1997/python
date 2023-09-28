@@ -1,0 +1,16 @@
+import numpy as np
+arr=np.array([2,3,4,5,4,4,6,7,8,9])
+print("The original array is : ")
+print(arr)
+print("Array after raplacing value equal to 4 by 3")
+print(np.where(arr==4,3,arr))
+print("Array after raplacing value less than 4 by 2")
+print(np.where(arr<4,2,arr))
+print("Array after raplacing value greater than 4 by 7")
+print(np.where(arr==4,7,arr))
+print("The reverse of the given array is")
+print(np.flip(arr))
+a=np.array([[1,2,3],[4,5,6],[7,8,9]]) 
+for x in range (0,len(a)): 
+    a[x]=np.flip(a[x]) 
+print(a)
