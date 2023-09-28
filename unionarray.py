@@ -1,0 +1,11 @@
+import numpy as np
+x=np.arange(2,23)
+print(x)
+print("the reverse of the given array is ")
+print(x[::-1])
+array1=np.array([0,10,20,40,50])
+print("array1",array1)
+array2=np.array([10,30,60,40,60])
+print("array2",array2)
+print("the unique value of the two array are")
+print(np.union1d(array1,array2))
